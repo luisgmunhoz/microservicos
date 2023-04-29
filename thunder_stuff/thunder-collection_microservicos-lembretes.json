@@ -1,0 +1,75 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "microservicos-lembretes",
+    "dateExported": "2023-04-29T12:44:54.380Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "66ffa6ec-023e-4ce6-bcc1-286e252f04f8",
+            "colId": "ed270df8-f9f8-4a08-ab7a-3c588981be69",
+            "containerId": "",
+            "name": "GET lembretes",
+            "url": "localhost:4000/lembretes",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-04-29T12:43:15.292Z",
+            "modified": "2023-04-29T12:43:15.292Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"texto\": \"cafe\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d91dfff2-b7aa-48b9-b684-f1ba151a4fa7",
+            "colId": "ed270df8-f9f8-4a08-ab7a-3c588981be69",
+            "containerId": "",
+            "name": "POST lembretes",
+            "url": "localhost:4000/lembretes",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-04-29T12:43:27.501Z",
+            "modified": "2023-04-29T12:43:27.501Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"texto\": \"cafe\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a23a46e5-7a9f-4661-b7e6-1d01b481cd67",
+            "colId": "ed270df8-f9f8-4a08-ab7a-3c588981be69",
+            "containerId": "",
+            "name": "POST lembretes",
+            "url": "localhost:4000/lembretes \"cafe\"",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-04-29T12:43:34.173Z",
+            "modified": "2023-04-29T12:43:34.173Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c7225212-831c-4606-bb1f-33888818f969",
+            "colId": "ed270df8-f9f8-4a08-ab7a-3c588981be69",
+            "containerId": "",
+            "name": "POST lembretes",
+            "url": "localhost:4000/lembretes \"fazer cafe\"",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-04-29T12:43:40.077Z",
+            "modified": "2023-04-29T12:43:40.077Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
