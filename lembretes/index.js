@@ -15,14 +15,14 @@ const lembretes = {};
 
 //POST localhost:4000/lembretes {texto: "fazer café"}
 app.post("/lembretes", (req, res) => {
-  const texto = req.body.texto;
-  id++;
-  lembretes[id] = { id, texto };
-  res.status(201).json(lembretes[id]);
+    const texto = req.body.texto;
+    id++;
+    lembretes[id] = { id, texto };
+    res.status(201).json(lembretes[id]);
 });
 // GET localhost:4000/lembretes
 app.get("/lembretes", (req, res) => {
-  res.send(lembretes);
+    res.send(lembretes);
 });
 
 const PORT = process.env.PORT || 4000;
